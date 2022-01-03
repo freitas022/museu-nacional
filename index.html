@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Museu Nacional Oficial</title>
+		<!-- Folha de estilo -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Normalize -->	
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="container"> <!-- I container-->
+			<header>
+				<div id="logo">
+					<h1><a href=""> Museu Nacional </a></h1>
+				</div>
+
+				<nav> <!-- Navegação -->
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="exposicoes.html">Exposições</a></li>
+							<li><a href="">Pesquisa</a></li>
+							<li><a href="">Acervo</a></li>
+							<li><a href="">Vídeos</a></li>
+							<li><a href="">Fotos</a></li>
+							<li><a href="">Contato</a></li>
+						</ul>
+				</nav> <!-- II Navegação -->
+			</header>
+			
+			<div id="principal"> <!-- Principal-->
+				<div id="conteudo"> <!-- Conteudo-->
+					<section id="capa">
+						<img src="img/museu.png">
+					</section>
+
+					<section id="postagens">
+						<article id="video">
+							<h3>
+								Vídeo: conheça o museu
+							</h3>
+							<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc"
+							frameborder="0" allow="autoplay";>	
+							</iframe>
+						</article>
+
+						<article id="mapa">
+							<h3>
+								MAPA: ENCONTRE O MUSEU
+							</h3>
+									
+								<iframe width="310" height="170" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1537538326477" frameborder="0">
+								</iframe>
+						</article>	
+
+						<article id="exposicoes">
+							<h3>
+								Exposições
+							</h3>
+								
+								<ul>
+									<li><a href="">Os assustadores insetos</a></li>
+									<li><a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+									<li><a href="">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+									<li><a href="">Plantas do Brasil Central</a></li>
+									<li><a href="">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+									<li><a href="">Arte com Dinossauros - Paleoarte</a></li>
+									<li><a href=""><strong>Veja Todos (64)</strong></a></li>
+								</ul>
+						</article>
+					
+						<article id="historia-museu">		
+							<h3>
+								200 anos de história
+							</h3>
+							<p>
+								Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+							</p>
+
+							<a href=""><strong>Leia mais</strong></a>
+						</article>
+				
+					</section>
+
+
+
+				</div> <!-- F conteudo-->
+
+				<aside> <!-- aside / depoimento-->
+					<section id="depoimento ">
+						<img src="img/depoimento.png">
+					</section>
+
+					<section id="visita">
+						<h4>Faça uma visita</h4>
+						<form> <!-- Formulário de visita -->
+							<fieldset>
+								<legend>Selecione uma data:</legend>
+								<label for="data">Data</label>
+								<input type="date" id="data" value="dd/mm/aaaa">
+
+								<label for="data">Pessoas</label>
+								<input class="campo" style="width:42px" type="number" id="qtd" value="1" min="1" max="12">
+							</fieldset>
+							<input class="botao" type="submit" value="Verificar Disponibilidade">
+						</form>
+					</section> <!-- f visita-->
+
+					<section id="fotos">
+						<h4>Galeria de fotos</h4>
+
+							<a href="">
+							<img src="img/imagem1.jpg" height="93" width="93" alt="Exposição de fotos">
+							
+							<a href="">
+							<img src="img/imagem2.jpg" height="93" width="93" alt="Exposição de fotos">
+							
+							<a href="">
+							<img src="img/imagem3.jpg" height="93" width="93" alt="Exposição de fotos">
+							
+							<a href="">
+							<img src="img/imagem4.jpg" height="93" width="93" alt="Exposição de fotos">
+					</section>
+				</aside> <!-- fim aside -->
+
+				<footer>
+					<p>
+						<a href="">Home</a>
+						<a href="">Exposições</a>
+						<a href="">Pesquisa</a>
+						<a href="">Acervo</a>
+						<a href="">Vídeos</a>
+						<a href="">Fotos</a>
+						<a href="">Contato</a>
+					</p>
+
+					<p>
+						2019 <a href="index.html">Museu Nacional</a> - Todos os direitos reservados.
+					</p>
+				</footer>
+				
+			</div> <!-- f Principal-->
+			
+		</div> <!-- Fim container -->
+		<!-- Optional JavaScript -->
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+	</html>
